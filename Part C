@@ -15,8 +15,14 @@ int main ()
     //user enter month
     cout << "Please Enter a Month (0 - 12): ";
     cin >> month;
-    
-     //integers number (days) between 1-31 for each given month
+  
+
+    //user enter year
+    cout << "Enter a Year: ";
+    cin >> year;
+  
+  
+      //integers number (days) between 1-31 for each given month
   for(int i = 0; i < 31; i++) 
     if (month == 4 ||month == 6 ||month == 9 ||month == 11)
       day = 30; 
@@ -30,11 +36,6 @@ int main ()
       }
       else
       day = 31;
-
-    //user enter year
-    cout << "Enter a Year: ";
-    cin >> year;
-  
  
 
 

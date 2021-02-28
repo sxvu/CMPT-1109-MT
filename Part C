@@ -32,7 +32,7 @@ int main ()
         bool leap = (year % 4 == 0 && year % 100 != 0) ||(year % 400 == 0);
           if (leap == 0) //if year is not divisiable by 4, 28 days will appear for February
             day = 28;
-          else //if year is divisable by 4 = leap year and 29 days will appear for February
+          else //if year is divisable by 4 & 100 = leap year and 29 days will appear for February
             day = 29;
       }
       else
